@@ -1,0 +1,100 @@
+﻿@model Paging.Paging<Category>
+
+@{
+    ViewData["Title"] = "Index";
+    var category = new Category();
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-action="Index" method="get">
+    <div class="form-actions no-color">
+        <p>
+            Wyszukaj po tytlu lub opisie: <input type="text" name="SearchString"/>
+            <input type="submit" value="Wyszukaj" class="btn btn-default" />
+        </p>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@{ if (!ViewData["SortParm"].Equals("Id")) { @Html.DisplayNameFor(model => category.Id); } }">@Html.DisplayNameFor(model => category.Id)</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@{ if (!ViewData["SortParm"].Equals("Titlle")) { @Html.DisplayNameFor(model => category.Titlle); } }">@Html.DisplayNameFor(model => category.Titlle)</a>
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@{ if (!ViewData["SortParm"].Equals("Description")) { @Html.DisplayNameFor(model => category.Description); } }">@Html.DisplayNameFor(model => category.Description)</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => category.Checked)
+            </th>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="@{ if (!ViewData["SortParm"].Equals("Group")) { @Html.DisplayNameFor(model => category.Group); } }">@Html.DisplayNameFor(model => category.Group)</a>
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titlle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Checked)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Group)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<a asp-action="Index"
+   asp-route-page="@(Model.PageIndex - 1)"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   class="btn btn-default @prevDisabled">
+    Poprzednie
+</a>
+
+@for (int a = Model.PageIndex + 1; a <= Model.TotalDisplay; a++)
+{
+    <a asp-action="Index"
+       asp-route-page="@a"
+       asp-route-sortOrder="@ViewData["CurrentSort"]"
+       class="btn btn-default">
+        @a
+    </a>
+}
+
+<a asp-action="Index"
+   asp-route-page="@(Model.PageIndex + 1)"
+   asp-route-sortOrder="@ViewData["CurrentSort"]"
+   class="btn btn-default @nextDisabled">
+    Następny
+</a>
+

@@ -1,0 +1,26 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit</h2>
+
+<form method="post" asp-action="Edit" asp-route-id="@Model.Id">
+    <label asp-for="Titlle">Imie</label>
+    <input asp-for="Titlle" value="@Model.Titlle" />
+    <span asp-validation-for="Titlle" class="text-danger"></span><br />
+
+    <label asp-for="Description">Nazwisko</label>
+    <input asp-for="Description" value="@Model.Description" />
+    <span asp-validation-for="Description" class="text-danger"></span><br />
+
+    <label asp-for="Checked">Sprawdzony</label>
+    <input asp-for="Checked" />
+    <span asp-validation-for="Checked" class="text-danger"></span><br />
+
+    <select asp-for="Group" asp-items="Html.GetEnumSelectList<Group>()"></select>
+    <span asp-validation-for="Group" class="text-danger"></span><br />
+
+    <button type="submit">Wyślij</button>
+
+</form>

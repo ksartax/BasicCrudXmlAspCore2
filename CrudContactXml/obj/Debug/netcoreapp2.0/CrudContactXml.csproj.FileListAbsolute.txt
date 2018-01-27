@@ -1,0 +1,11 @@
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\bin\Debug\netcoreapp2.0\CrudContactXml.deps.json
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\bin\Debug\netcoreapp2.0\CrudContactXml.runtimeconfig.json
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\bin\Debug\netcoreapp2.0\CrudContactXml.runtimeconfig.dev.json
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\bin\Debug\netcoreapp2.0\CrudContactXml.dll
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\bin\Debug\netcoreapp2.0\CrudContactXml.pdb
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\obj\Debug\netcoreapp2.0\CrudContactXml.csprojResolveAssemblyReference.cache
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\obj\Debug\netcoreapp2.0\CrudContactXml.csproj.CoreCompileInputs.cache
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\obj\Debug\netcoreapp2.0\CrudContactXml.AssemblyInfoInputs.cache
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\obj\Debug\netcoreapp2.0\CrudContactXml.AssemblyInfo.cs
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\obj\Debug\netcoreapp2.0\CrudContactXml.dll
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\CrudContactXml\obj\Debug\netcoreapp2.0\CrudContactXml.pdb

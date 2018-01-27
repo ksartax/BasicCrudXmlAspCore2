@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ArrayOfCategory xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Category>
+    <Id>0</Id>
+    <Titlle>A</Titlle>
+    <Description>A</Description>
+    <Checked>true</Checked>
+    <Group>praca</Group>
+  </Category>
+  <Category>
+    <Id>2</Id>
+    <Titlle>B</Titlle>
+    <Description>B</Description>
+    <Checked>false</Checked>
+    <Group>praca</Group>
+  </Category>
+  <Category>
+    <Id>3</Id>
+    <Titlle>D</Titlle>
+    <Description>V</Description>
+    <Checked>false</Checked>
+    <Group>praca</Group>
+  </Category>
+  <Category>
+    <Id>4</Id>
+    <Titlle>A</Titlle>
+    <Description>X</Description>
+    <Checked>false</Checked>
+    <Group>przyjaciele</Group>
+  </Category>
+</ArrayOfCategory>
