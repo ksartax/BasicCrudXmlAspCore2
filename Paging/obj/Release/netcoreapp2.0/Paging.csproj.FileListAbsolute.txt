@@ -1,0 +1,9 @@
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\bin\Release\netcoreapp2.0\Paging.deps.json
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\bin\Release\netcoreapp2.0\Paging.dll
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\bin\Release\netcoreapp2.0\Paging.pdb
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\obj\Release\netcoreapp2.0\Paging.csprojResolveAssemblyReference.cache
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\obj\Release\netcoreapp2.0\Paging.csproj.CoreCompileInputs.cache
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\obj\Release\netcoreapp2.0\Paging.AssemblyInfoInputs.cache
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\obj\Release\netcoreapp2.0\Paging.AssemblyInfo.cs
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\obj\Release\netcoreapp2.0\Paging.dll
+C:\Users\damia.DESKTOP-836KIV2\source\repos\CrudContactXml\Paging\obj\Release\netcoreapp2.0\Paging.pdb
